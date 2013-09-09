@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MyEHome2.xcscheme</key>
+		<key>SimpleTable.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8C04C19A17DDC5E30093B670</key>
+		<key>8CF9551717D5C67F0008CFE9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

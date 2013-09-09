@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8C04C19A17DDC5E30093B670"
-               BuildableName = "MyEHome2.app"
-               BlueprintName = "MyEHome2"
-               ReferencedContainer = "container:MyEHome2.xcodeproj">
+               BlueprintIdentifier = "8CF9551717D5C67F0008CFE9"
+               BuildableName = "SimpleTable.app"
+               BlueprintName = "SimpleTable"
+               ReferencedContainer = "container:SimpleTable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C04C19A17DDC5E30093B670"
-            BuildableName = "MyEHome2.app"
-            BlueprintName = "MyEHome2"
-            ReferencedContainer = "container:MyEHome2.xcodeproj">
+            BlueprintIdentifier = "8CF9551717D5C67F0008CFE9"
+            BuildableName = "SimpleTable.app"
+            BlueprintName = "SimpleTable"
+            ReferencedContainer = "container:SimpleTable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C04C19A17DDC5E30093B670"
-            BuildableName = "MyEHome2.app"
-            BlueprintName = "MyEHome2"
-            ReferencedContainer = "container:MyEHome2.xcodeproj">
+            BlueprintIdentifier = "8CF9551717D5C67F0008CFE9"
+            BuildableName = "SimpleTable.app"
+            BlueprintName = "SimpleTable"
+            ReferencedContainer = "container:SimpleTable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8C04C19A17DDC5E30093B670"
-            BuildableName = "MyEHome2.app"
-            BlueprintName = "MyEHome2"
-            ReferencedContainer = "container:MyEHome2.xcodeproj">
+            BlueprintIdentifier = "8CF9551717D5C67F0008CFE9"
+            BuildableName = "SimpleTable.app"
+            BlueprintName = "SimpleTable"
+            ReferencedContainer = "container:SimpleTable.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
