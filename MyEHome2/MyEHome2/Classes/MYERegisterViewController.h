@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MYERegisterViewController : UIViewController
-- (IBAction)btnPressed:(UIButton *)sender;
+
 
 @end

@@ -23,7 +23,6 @@
 		8CA86A1B17E1B3420076E06F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A1617E1B3420076E06F /* Default.png */; };
 		8CA86A1C17E1B3420076E06F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A1717E1B3420076E06F /* Default@2x.png */; };
 		8CA86A2E17E1B3600076E06F /* MYEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A2317E1B3600076E06F /* MYEAppDelegate.m */; };
-		8CA86A3217E1B3600076E06F /* MYEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A2B17E1B3600076E06F /* MYEViewController.m */; };
 		8CA86A5317E1B4210076E06F /* run1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A3517E1B4210076E06F /* run1.png */; };
 		8CA86A5417E1B4210076E06F /* run2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A3617E1B4210076E06F /* run2.png */; };
 		8CA86A5517E1B4210076E06F /* run3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A3717E1B4210076E06F /* run3.png */; };
@@ -52,6 +51,10 @@
 		8CA86A6C17E1B4210076E06F /* signal3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A5117E1B4210076E06F /* signal3.png */; };
 		8CA86A6D17E1B4210076E06F /* signal4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CA86A5217E1B4210076E06F /* signal4.png */; };
 		8CA86A7017E1BA500076E06F /* MYERegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A6F17E1BA500076E06F /* MYERegisterViewController.m */; };
+		8CA86A7617E1DBA40076E06F /* MYEDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A7317E1DBA40076E06F /* MYEDataLoader.m */; };
+		8CA86A7717E1DBA40076E06F /* MYEUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A7517E1DBA40076E06F /* MYEUtil.m */; };
+		8CA86A7A17E1DC570076E06F /* MYELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A7917E1DC570076E06F /* MYELoginViewController.m */; };
+		8CA86A7E17E1E2000076E06F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA86A7D17E1E2000076E06F /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +78,6 @@
 		8CA86A1717E1B3420076E06F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Assets/Default@2x.png"; sourceTree = "<group>"; };
 		8CA86A2217E1B3600076E06F /* MYEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYEAppDelegate.h; sourceTree = "<group>"; };
 		8CA86A2317E1B3600076E06F /* MYEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYEAppDelegate.m; sourceTree = "<group>"; };
-		8CA86A2A17E1B3600076E06F /* MYEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYEViewController.h; sourceTree = "<group>"; };
-		8CA86A2B17E1B3600076E06F /* MYEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYEViewController.m; sourceTree = "<group>"; };
 		8CA86A3517E1B4210076E06F /* run1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run1.png; sourceTree = "<group>"; };
 		8CA86A3617E1B4210076E06F /* run2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run2.png; sourceTree = "<group>"; };
 		8CA86A3717E1B4210076E06F /* run3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = run3.png; sourceTree = "<group>"; };
@@ -106,6 +107,14 @@
 		8CA86A5217E1B4210076E06F /* signal4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signal4.png; sourceTree = "<group>"; };
 		8CA86A6E17E1BA500076E06F /* MYERegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYERegisterViewController.h; sourceTree = "<group>"; };
 		8CA86A6F17E1BA500076E06F /* MYERegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYERegisterViewController.m; sourceTree = "<group>"; };
+		8CA86A7217E1DBA40076E06F /* MYEDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYEDataLoader.h; sourceTree = "<group>"; };
+		8CA86A7317E1DBA40076E06F /* MYEDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYEDataLoader.m; sourceTree = "<group>"; };
+		8CA86A7417E1DBA40076E06F /* MYEUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYEUtil.h; sourceTree = "<group>"; };
+		8CA86A7517E1DBA40076E06F /* MYEUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYEUtil.m; sourceTree = "<group>"; };
+		8CA86A7817E1DC570076E06F /* MYELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYELoginViewController.h; sourceTree = "<group>"; };
+		8CA86A7917E1DC570076E06F /* MYELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYELoginViewController.m; sourceTree = "<group>"; };
+		8CA86A7C17E1E2000076E06F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8CA86A7D17E1E2000076E06F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,12 +201,14 @@
 		8CA86A1D17E1B3600076E06F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8CA86A7B17E1E2000076E06F /* MBProgressHUD */,
+				8CA86A7117E1DBA40076E06F /* Utilities */,
 				8CA86A2217E1B3600076E06F /* MYEAppDelegate.h */,
 				8CA86A2317E1B3600076E06F /* MYEAppDelegate.m */,
-				8CA86A2A17E1B3600076E06F /* MYEViewController.h */,
-				8CA86A2B17E1B3600076E06F /* MYEViewController.m */,
 				8CA86A6E17E1BA500076E06F /* MYERegisterViewController.h */,
 				8CA86A6F17E1BA500076E06F /* MYERegisterViewController.m */,
+				8CA86A7817E1DC570076E06F /* MYELoginViewController.h */,
+				8CA86A7917E1DC570076E06F /* MYELoginViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -267,6 +278,26 @@
 				8CA86A5217E1B4210076E06F /* signal4.png */,
 			);
 			path = signal;
+			sourceTree = "<group>";
+		};
+		8CA86A7117E1DBA40076E06F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8CA86A7217E1DBA40076E06F /* MYEDataLoader.h */,
+				8CA86A7317E1DBA40076E06F /* MYEDataLoader.m */,
+				8CA86A7417E1DBA40076E06F /* MYEUtil.h */,
+				8CA86A7517E1DBA40076E06F /* MYEUtil.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8CA86A7B17E1E2000076E06F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8CA86A7C17E1E2000076E06F /* MBProgressHUD.h */,
+				8CA86A7D17E1E2000076E06F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,8 +401,11 @@
 			files = (
 				8CA79E4517DF0C4E0028C8B8 /* main.m in Sources */,
 				8CA86A2E17E1B3600076E06F /* MYEAppDelegate.m in Sources */,
-				8CA86A3217E1B3600076E06F /* MYEViewController.m in Sources */,
 				8CA86A7017E1BA500076E06F /* MYERegisterViewController.m in Sources */,
+				8CA86A7617E1DBA40076E06F /* MYEDataLoader.m in Sources */,
+				8CA86A7717E1DBA40076E06F /* MYEUtil.m in Sources */,
+				8CA86A7A17E1DC570076E06F /* MYELoginViewController.m in Sources */,
+				8CA86A7E17E1E2000076E06F /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
