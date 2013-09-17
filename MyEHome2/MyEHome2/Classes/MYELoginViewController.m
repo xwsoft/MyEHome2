@@ -41,14 +41,14 @@
 
 - (IBAction)login:(UIButton *)sender {
     // 如果用户名和密码的输入不足长度，提示后退出
-    if([self.nameTxt.text  length] < 4 || [self.passwordTxt.text length] < 6) {
-        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"警告！"
-                                                      message:@"用户名或密码错误"
-                                                     delegate:nil
-                                            cancelButtonTitle:@"知道了"
-                                            otherButtonTitles:nil];
-        [alert show];
-        return;
+//    if([self.nameTxt.text  length] < 4 || [self.passwordTxt.text length] < 6) {
+//        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"警告！"
+//                                                      message:@"用户名或密码错误"
+//                                                     delegate:nil
+//                                            cancelButtonTitle:@"知道了"
+//                                            otherButtonTitles:nil];
+//        [alert show];
+//        return;
     }
     
     
@@ -79,26 +79,26 @@
     ///////////////////////////////////////////////////////////////////////
     
     // 1.判断是否联网：
-    if (![MYEDataLoader isConnectedToInternet]) {
-        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"警告"
-                                                      message:@"您的设备没有联网"
-                                                     delegate:nil
-                                            cancelButtonTitle:@"知道了"
-                                            otherButtonTitles:nil];
-        [alert show];
-        return;
-    }
-    
-    if(HUD == nil) {
-        HUD = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
-        //        HUD.dimBackground = YES; //容易产生灰条
-        HUD.delegate = self;
-    } else
-        [HUD show:YES];
-    
-    NSString *urlStr = [NSString stringWithFormat:@"%@?username=%@&password=%@&type=1", URL_FOR_LOGIN, self.nameTxt.text, self.passwordTxt.text] ;
-    MYEDataLoader *downloader = [[MYEDataLoader alloc] initLoadingWithURLString:urlStr postData:nil delegate:self loaderName:@"LoginDownloader" userDataDictionary:nil];
-    NSLog(@"downloader.name is  %@ urlStr =  %@",downloader.name, urlStr);
-
-}
+//    if (![MYEDataLoader isConnectedToInternet]) {
+//        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"警告"
+//                                                      message:@"您的设备没有联网"
+//                                                     delegate:nil
+//                                            cancelButtonTitle:@"知道了"
+//                                            otherButtonTitles:nil];
+//        [alert show];
+//        return;
+//    }
+//    
+//    if(HUD == nil) {
+//        HUD = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
+//        //        HUD.dimBackground = YES; //容易产生灰条
+//        HUD.delegate = self;
+//    } else
+//        [HUD show:YES];
+//    
+//    NSString *urlStr = [NSString stringWithFormat:@"%@?username=%@&password=%@&type=1", URL_FOR_LOGIN, self.nameTxt.text, self.passwordTxt.text] ;
+//    MYEDataLoader *downloader = [[MYEDataLoader alloc] initLoadingWithURLString:urlStr postData:nil delegate:self loaderName:@"LoginDownloader" userDataDictionary:nil];
+//    NSLog(@"downloader.name is  %@ urlStr =  %@",downloader.name, urlStr);
+//
+//}
 @end

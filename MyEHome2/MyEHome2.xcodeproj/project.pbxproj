@@ -11,6 +11,7 @@
 		8C3588B917E7F6C600BC0B51 /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3588B617E7F6C600BC0B51 /* loginbg.png */; };
 		8C3588BA17E7F6C600BC0B51 /* loginbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3588B717E7F6C600BC0B51 /* loginbg@2x.png */; };
 		8C5E4F2717DF49FB00A4FE9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5E4F2617DF49FB00A4FE9F /* SystemConfiguration.framework */; };
+		8C8A9B0517E82964004321F5 /* MYEAddAcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8A9B0417E82964004321F5 /* MYEAddAcViewController.m */; };
 		8CA79E3917DF0C4D0028C8B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA79E3817DF0C4D0028C8B8 /* UIKit.framework */; };
 		8CA79E3B17DF0C4D0028C8B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA79E3A17DF0C4D0028C8B8 /* Foundation.framework */; };
 		8CA79E3D17DF0C4D0028C8B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA79E3C17DF0C4D0028C8B8 /* CoreGraphics.framework */; };
@@ -62,6 +63,8 @@
 		8C3588B617E7F6C600BC0B51 /* loginbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbg.png; sourceTree = "<group>"; };
 		8C3588B717E7F6C600BC0B51 /* loginbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginbg@2x.png"; sourceTree = "<group>"; };
 		8C5E4F2617DF49FB00A4FE9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8C8A9B0317E82964004321F5 /* MYEAddAcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYEAddAcViewController.h; sourceTree = "<group>"; };
+		8C8A9B0417E82964004321F5 /* MYEAddAcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYEAddAcViewController.m; sourceTree = "<group>"; };
 		8CA79E3517DF0C4D0028C8B8 /* MyEHome2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEHome2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA79E3817DF0C4D0028C8B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8CA79E3A17DF0C4D0028C8B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 				8CA86A1D17E1B3600076E06F /* Classes */,
 				8CA79E5017DF0C4E0028C8B8 /* MainStoryboard.storyboard */,
 				8CA79E3F17DF0C4E0028C8B8 /* Supporting Files */,
+				8C8A9B0317E82964004321F5 /* MYEAddAcViewController.h */,
+				8C8A9B0417E82964004321F5 /* MYEAddAcViewController.m */,
 			);
 			path = MyEHome2;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				8CA86A7717E1DBA40076E06F /* MYEUtil.m in Sources */,
 				8CA86A7A17E1DC570076E06F /* MYELoginViewController.m in Sources */,
 				8CA86A7E17E1E2000076E06F /* MBProgressHUD.m in Sources */,
+				8C8A9B0517E82964004321F5 /* MYEAddAcViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
