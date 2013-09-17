@@ -715,7 +715,6 @@
                             <constraint firstItem="snC-ag-ZXr" firstAttribute="trailing" secondItem="W21-5q-6gE" secondAttribute="trailing" type="default" id="4Rg-Io-DN7"/>
                             <constraint firstItem="NHe-bs-HV1" firstAttribute="trailing" secondItem="pZW-t5-V1k" secondAttribute="trailing" type="default" id="6Z3-pc-wbS"/>
                             <constraint firstItem="NHe-bs-HV1" firstAttribute="centerY" secondItem="RQg-Ie-u5V" secondAttribute="centerY" type="default" id="9O1-Qh-Fhn"/>
-                            <constraint firstItem="8RB-8O-rDU" firstAttribute="centerX" secondItem="W21-5q-6gE" secondAttribute="centerX" type="default" id="Bs9-G9-yZ3"/>
                             <constraint firstItem="NHe-bs-HV1" firstAttribute="top" secondItem="GbL-pB-Muh" secondAttribute="top" constant="158" id="Ckt-rH-a56"/>
                             <constraint firstItem="8RB-8O-rDU" firstAttribute="bottom" secondItem="GbL-pB-Muh" secondAttribute="bottom" type="default" id="JAt-JL-d6R"/>
                             <constraint firstItem="pZW-t5-V1k" firstAttribute="leading" secondItem="NHe-bs-HV1" secondAttribute="leading" type="default" id="Jtv-31-XcU"/>
@@ -730,6 +729,7 @@
                             <constraint firstItem="W21-5q-6gE" firstAttribute="leading" secondItem="snC-ag-ZXr" secondAttribute="leading" type="default" id="ZN3-nu-fzW"/>
                             <constraint firstItem="CAE-R6-gFT" firstAttribute="centerY" secondItem="pZW-t5-V1k" secondAttribute="centerY" type="default" id="dfB-gG-Wxs"/>
                             <constraint firstItem="pDG-3i-bh2" firstAttribute="top" secondItem="GbL-pB-Muh" secondAttribute="top" constant="50" id="mLg-zZ-gPo"/>
+                            <constraint firstItem="snC-ag-ZXr" firstAttribute="centerX" secondItem="8RB-8O-rDU" secondAttribute="centerX" type="default" id="uCH-ad-XeS"/>
                         </constraints>
                     </view>
                 </viewController>

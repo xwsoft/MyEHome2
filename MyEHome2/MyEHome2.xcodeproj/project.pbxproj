@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C5E4F1C17DF454F00A4FE9F /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E4F1A17DF454F00A4FE9F /* loginbg.png */; };
-		8C5E4F1D17DF454F00A4FE9F /* loginbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E4F1B17DF454F00A4FE9F /* loginbg@2x.png */; };
-		8C5E4F1F17DF459B00A4FE9F /* buttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C5E4F1E17DF459B00A4FE9F /* buttonbg.png */; };
+		8C3588B817E7F6C600BC0B51 /* buttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3588B517E7F6C600BC0B51 /* buttonbg.png */; };
+		8C3588B917E7F6C600BC0B51 /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3588B617E7F6C600BC0B51 /* loginbg.png */; };
+		8C3588BA17E7F6C600BC0B51 /* loginbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C3588B717E7F6C600BC0B51 /* loginbg@2x.png */; };
 		8C5E4F2717DF49FB00A4FE9F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5E4F2617DF49FB00A4FE9F /* SystemConfiguration.framework */; };
 		8CA79E3917DF0C4D0028C8B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA79E3817DF0C4D0028C8B8 /* UIKit.framework */; };
 		8CA79E3B17DF0C4D0028C8B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA79E3A17DF0C4D0028C8B8 /* Foundation.framework */; };
@@ -58,9 +58,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C5E4F1A17DF454F00A4FE9F /* loginbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginbg.png; path = ../../../Pictures/MyESmartThermostat/MyE/Assets/loginbg.png; sourceTree = "<group>"; };
-		8C5E4F1B17DF454F00A4FE9F /* loginbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginbg@2x.png"; path = "../../../Pictures/MyESmartThermostat/MyE/Assets/loginbg@2x.png"; sourceTree = "<group>"; };
-		8C5E4F1E17DF459B00A4FE9F /* buttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonbg.png; path = ../../../Pictures/MyESmartThermostat/MyE/Assets/buttonbg.png; sourceTree = "<group>"; };
+		8C3588B517E7F6C600BC0B51 /* buttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbg.png; sourceTree = "<group>"; };
+		8C3588B617E7F6C600BC0B51 /* loginbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbg.png; sourceTree = "<group>"; };
+		8C3588B717E7F6C600BC0B51 /* loginbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginbg@2x.png"; sourceTree = "<group>"; };
 		8C5E4F2617DF49FB00A4FE9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8CA79E3517DF0C4D0028C8B8 /* MyEHome2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEHome2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA79E3817DF0C4D0028C8B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -141,9 +141,6 @@
 				8CA86A1517E1B3420076E06F /* Default-568h@2x.png */,
 				8CA86A1617E1B3420076E06F /* Default.png */,
 				8CA86A1717E1B3420076E06F /* Default@2x.png */,
-				8C5E4F1E17DF459B00A4FE9F /* buttonbg.png */,
-				8C5E4F1A17DF454F00A4FE9F /* loginbg.png */,
-				8C5E4F1B17DF454F00A4FE9F /* loginbg@2x.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -216,6 +213,9 @@
 		8CA86A3317E1B4210076E06F /* icons */ = {
 			isa = PBXGroup;
 			children = (
+				8C3588B517E7F6C600BC0B51 /* buttonbg.png */,
+				8C3588B617E7F6C600BC0B51 /* loginbg.png */,
+				8C3588B717E7F6C600BC0B51 /* loginbg@2x.png */,
 				8CA86A3417E1B4210076E06F /* acmodes */,
 				8CA86A3A17E1B4210076E06F /* devices */,
 				8CA86A4517E1B4210076E06F /* room */,
@@ -354,9 +354,6 @@
 			files = (
 				8CA79E4317DF0C4E0028C8B8 /* InfoPlist.strings in Resources */,
 				8CA79E5217DF0C4E0028C8B8 /* MainStoryboard.storyboard in Resources */,
-				8C5E4F1C17DF454F00A4FE9F /* loginbg.png in Resources */,
-				8C5E4F1D17DF454F00A4FE9F /* loginbg@2x.png in Resources */,
-				8C5E4F1F17DF459B00A4FE9F /* buttonbg.png in Resources */,
 				8CA86A1817E1B3420076E06F /* ApplicationIcon.png in Resources */,
 				8CA86A1917E1B3420076E06F /* ApplicationIcon@2x.png in Resources */,
 				8CA86A1A17E1B3420076E06F /* Default-568h@2x.png in Resources */,
@@ -389,6 +386,9 @@
 				8CA86A6B17E1B4210076E06F /* signal2.png in Resources */,
 				8CA86A6C17E1B4210076E06F /* signal3.png in Resources */,
 				8CA86A6D17E1B4210076E06F /* signal4.png in Resources */,
+				8C3588B817E7F6C600BC0B51 /* buttonbg.png in Resources */,
+				8C3588B917E7F6C600BC0B51 /* loginbg.png in Resources */,
+				8C3588BA17E7F6C600BC0B51 /* loginbg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
